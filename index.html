@@ -1,46 +1,71 @@
 <html>
 
-  <head>
-    <title>Nils Pap Lebenslauf</title>
-    <style>
-      body{
-        background-color: #19445f;
-        font-family: 'Courier New', Courier, monospace;
-      }
-      #titel{
-        background-color: rgb(48, 89, 107);
-      }
-      .fett{
-        font-weight: bold;
-      }
-    </style>
-  </head>
-  <body>
-    <h1 id="titel">Nils Pap Lebenslauf</h1>
-    <p class="fett">
-     Famlilienname, Vorname:           Pap Nils <br />
-     <br />
-     <br />
-     Geburtstag, Geburtsort:           02.09.2006, Speyer am Rhein<br />
-     <br />
-     <br />
-     Staatsangehörigkeit:              Deutsch <br />
-     <br />
-     <br />
-     Famlilienstand:                   Ledig <br />
-     <br />
-     <br />
-     2013-2017:                        Besuch der Grundschule St. Magdalena in Speyer <br />
-     <br />
-     <br />
-     Seit 2017:                        Besuch des Gymnasiums am Kaiserdom in Speyer <br />
-     <br />
-     <br />
-     Fremdsprachenkenntnisse:         Englisch, Französisch, Latein, Italienisch<br />
-     <br />
-     <br />
-     Persönliche Interessen:           Fußball, Karate, Klavier  
-    </p>
-  </body>
-  
+<head>
+  <title>Nils Pap Lebenslauf</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .fett {
+      font-weight: bold;
+    }
+
+    #bild1 {
+      width: 100px;
+    }
+
+    .label {
+      text-decoration: underline;
+    }
+
+    #tabelle {
+      border-spacing: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <table id="tabelle">
+    <tr>
+      <td><img id="bild1" src="nils-pap.png" /></td>
+      <td>
+        <h1>Nils Pap Lebenslauf</h1>
+      </td>
+    </tr>
+    <tr class="fett">
+      <td class="label">Famlilienname, Vorname:</td>
+      <td>Pap Nils</td>
+    </tr>
+    <tr class="fett">
+      <td class="label">Geburtstag, Geburtsort:</td>
+      <td>02.09.2006, Speyer am Rhein</td>
+    </tr>
+    <tr class="fett">
+      <td class="label">Staatsangehörigkeit:</td>
+      <td>Deutsch</td>
+    </tr>
+    <tr class="fett">
+      <td class="label">Famlilienstand:</td>
+      <td>Ledig</td>
+    </tr>
+    <tr class="fett">
+      <td class="label">2013-2017:</td>
+      <td>Besuch der Grundschule St. Magdalena in Speyer</td>
+    </tr>
+    <tr class="fett">
+      <td class="label">Seit 2017:</td>
+      <td>Besuch des Gymnasiums am Kaiserdom in Speyer</td>
+    </tr>
+    <tr class="fett">
+      <td class="label">Fremdsprachenkenntnisse:</td>
+      <td>Englisch, Französisch, Latein, Italienisch</td>
+    </tr>
+    <tr class="fett">
+      <td class="label">Persönliche Interessen:</td>
+      <td>Fußball, <a href="karate.html">Karate</a>, Klavier</td>
+      </tr>
+  </table>
+</body>
+
 </html>
